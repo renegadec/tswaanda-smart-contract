@@ -2,12 +2,16 @@
 # Developer note: near.gitignore will be renamed to .gitignore upon project creation
 # dependencies
 node_modules
+**/node_modules
+**/dist
 /.pnp
 .pnp.js
 
 # build
 /out
 /dist
+
+**/target
 
 # keys
 /templates/react/neardev
